@@ -1,0 +1,33 @@
+{
+  "name": "flipcards",
+  "version": "1.0.0",
+  "description": "\"flashcards\"",
+  "main": "flashcards.js",
+  "scripts": {
+    "minify": "mkdir -p build/ && minify src/js/flashcards.js --out-file build/flashcards.min.js",
+    "eslint": "eslint src/js/flashcards.js",
+    "build": "npm run eslint && npm run minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timausk/flashcards"
+  },
+  "keywords": [
+    "flashcards",
+    "flipcards"
+  ],
+  "author": "timausk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timausk/flashcards/issues"
+  },
+  "homepage": "https://github.com/timausk/flashcards#readme",
+  "devDependencies": {
+    "babel-minify": "^0.4.3",
+    "cssnano": "^4.0.5",
+    "eslint": "^5.3.0",
+    "postcss": "^7.0.2",
+    "postcss-cli": "^6.0.0",
+    "postcss-cssnext": "^3.1.0"
+  }
+}
