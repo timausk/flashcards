@@ -4,7 +4,7 @@
   "description": "\"flipcards\"",
   "main": "flipcards.js",
   "scripts": {
-    "node-sass": "node-sass --indent-type space --indent-width 2 'src/scss/main.scss' 'src/css/flashcards.css'",
+    "node-sass": "node-sass --indent-type space --indent-width 2 'client/src/scss/main.scss' 'src/css/flashcards.css'",
     "watch:node-sass": "nodemon -e scss -x \"npm run node-sass\""
   },
   "repository": {
