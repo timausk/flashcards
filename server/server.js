@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const { createServer } = require('http');
 const { readFile } = require('fs');
 const { extname } = require('path');
